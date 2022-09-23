@@ -1,0 +1,131 @@
+body {
+  background-color: #f3f5fc
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 16px;
+}
+
+#hombre {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+.hombre-ahorcado {
+  width: 100vw;
+  text-align: center;
+  margin-top:  2rem;
+  margin-bottom: 2rem;
+  height: 16.75rem;
+}
+
+.adivinado {
+  text-align: center;
+  color: #002462;
+  font-size: 1.8rem;
+}
+
+.letra {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.adivinada {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-bottom: solid 1px #002462;
+  margin-left: 0.4rem;
+  line-height: 4.5rem;
+}
+
+.errado {
+  text-align:  center;
+  margin-top: 1rem;
+  color: #242d34;
+}
+
+.errada {
+  margin-left: 1rem;
+}
+
+[type="button"] {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 1px #0a3871;
+  color: #0a3871;
+  background: inherit;
+  cursor: pointer;
+}
+
+.btt {
+  background-color: #0a3871;
+  color: #fff;
+  border-color: #000;
+}
+
+
+
+
+.botones {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn-azul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 50px;
+    font-size: var(--font-size-buttons);
+    color: var(--font-color);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 2em;
+    border-color: hsl(160, 70%, 58%);
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+    color:white;
+    margin-left: 35rem;
+}
+
+.btn-azul:hover {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.7);
+    background: rgb(118,75,144);
+    background: linear-gradient(90deg, rgba(118,75,144,1) 0%, rgba(66,139,92,1) 53%, rgba(68,94,148,1) 100%);
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(255, 255, 255, 0.4);
+}
+
+
+.desistir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 50px;
+    font-size: var(--font-size-buttons);
+    color: var(--font-color);
+    background-color: black;
+    border-radius: 2em;
+    border-color: hsl(160, 70%, 58%);
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+    color:#FFFFFF;
+    margin-left: 35rem;
+}
+
+.desistir:hover {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.7);
+    background: rgb(118,75,144);
+    background: linear-gradient(90deg, rgba(118,75,144,1) 0%, rgba(66,139,92,1) 53%, rgba(68,94,148,1) 100%);
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(255, 255, 255, 0.4);
+}
+

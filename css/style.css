@@ -1,0 +1,182 @@
+*, 
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+    --font-family: 'Segoe UI', sans-serif;
+    --font-color: white;
+    --font-size: 1em;
+    --font-size-buttons: 1em;
+}
+
+html {
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+body {
+  background-color: #f3f5fc
+}
+.logoinicio{
+    margin-right: 80rem;
+}
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: var(--font-size);
+    color: #000000;
+}
+
+html
+body
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 50px;
+    font-size: var(--font-size-buttons);
+    color: var(--font-color);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 2em;
+    border-color: hsl(160, 70%, 58%);
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.7);
+    background: rgb(118,75,144);
+    background: linear-gradient(90deg, rgba(118,75,144,1) 0%, rgba(66,139,92,1) 53%, rgba(68,94,148,1) 100%);
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(255, 255, 255, 0.4);
+}
+
+html
+body
+.hide-header {
+    display: none;
+}
+
+html
+body
+#container
+.main-content {
+    display: none;
+}
+
+
+.footer{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000000;
+}
+html
+body
+.seccion-bienvenida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), 
+    /*url("../images/oracle logo.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
+}
+.seccion-bienvenida
+#instrucciones {
+    padding: 1em;
+    margin: 1em 2em;
+    min-width: 45%;
+    text-align: center;
+    color:black;
+}
+.seccion-bienvenida
+.div-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    min-width: 60%;
+    width: 60%;
+        color: black;
+
+}
+.div-box
+.btn
+.animation-code {
+    display: flex;
+    margin-left: 0.5em;
+    font-size: var(--font-size);
+    transition: all 0.3s ease-out;
+}
+.div-box
+.btn:hover
+.animation-code {
+    transform: translate(4.5px);
+}
+.div-box
+.input-texto[type="text"] {
+    padding: 0.8em;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    max-width: 60%;
+    width: 100%;
+    height: 2.6em;
+    font-size: 0.8em;
+}
+.div-box
+.input-texto[type="text"]:focus {
+    border-color: hsl(160, 70%, 58%);
+}
+.seccion-bienvenida
+#contact {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 0.2em;
+    border-radius: 2em;
+    background-color: hsl(160, 70%, 58%);
+        color: black;
+
+}
+#contact
+p {
+    color: black;
+}
+#contact
+.links-footer {
+    transition: all 0.2s ease-out;
+}
+
+#contact
+.iconos {
+    margin: 0.2em;
+    width: 30px;
+}
+
+
+/*---------------------------------------------*/
+
+
